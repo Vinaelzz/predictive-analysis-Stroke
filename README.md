@@ -96,15 +96,14 @@ pada tahap analysis dilakukan 2 metode yaitu univariate dan multivariate method.
      
     Dari hasil Univariate analysis ini menunjukan bahwa terdapat *outliers* pada faktor "gender" yaitu kategori "other" yang hanya memiliki 1 buah data. Sehingga kategori data "other" harus di hapus, yang mana bila tidak di hapus maka kategori tersebut akan menyebabkan melencengnya hasil analisis dikarenakan terdapat satu sampel kategori yang berbeda dan jumlahnya hanaya satu yaitu kategori "other"
     
-
+    Nah lalu untuk mengatasi permasalahan *outliers* tersebut maka disini saya menggunakan metode pendistribusian data menggunakan model univariat sehingga dapat terlihat metrik/kategori mana yang menyimpang dan harus di buang atau di *replace* dengan data mean dari faktor tersebut.
+    
 
 sedangkan berikut adalah beberapa contoh faktor yang memiliki persebaran merata atau tidak memiliki *outliers* 
 ![image](https://user-images.githubusercontent.com/73600512/199658106-041b7277-1d02-4f0c-a315-4149ece3f019.png)
-
-
-hasil histogram / grafik dari analysis univariate 
-
-![image](https://user-images.githubusercontent.com/73600512/199655710-d3adf813-b011-4374-8f42-bd991209592a.png)
+ 
+  Hasil dari grafik metode univariat diatas menunjukan bahwa tidak adanya outliers dengan menggunakan metode analysis *univariate* sehingga dapat terlihat apakah sebuah faktor memiliki metrik/ kategori yang menyimpang atau beda sendiri di banding kategori lainnya.
+  Lalu agar hasil analisis menjadi lebih akurat makan dilakukan model linear multivariate untuk mendeteksi *outliers* dan juga mencari korelasi antara faktor yang ada
 
 Berikut analisis dari hasil histogram  diatas :
 1. Sebagian besar sample data memiliki BMI di angka 30an
