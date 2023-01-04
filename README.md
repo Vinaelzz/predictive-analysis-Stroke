@@ -1,4 +1,4 @@
-#  1 Predictive Analysis Stroke
+#  Predictive Analysis Stroke
 
 # Domain Proyek
 
