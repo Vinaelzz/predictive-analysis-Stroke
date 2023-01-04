@@ -1,4 +1,4 @@
-# Submission 1 Predictive Analysis Stroke
+#  1 Predictive Analysis Stroke
 
 # Domain Proyek
 
